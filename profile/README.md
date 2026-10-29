@@ -39,13 +39,11 @@ The product focuses on tenants in **New York City**, particularly those navigati
 
 <img width="3200" height="1800" alt="Dwell Service Overview" src="https://github.com/user-attachments/assets/31b4d46c-25d2-4118-84d9-5bd8d9b0ba83" />
 
-Dwell connects **Document → Understand → Act** to help tenants navigate housing issues with greater clarity.
 
 ## 🧭 User Journey
 
 <img width="3200" height="1800" alt="Dwell User Journey" src="https://github.com/user-attachments/assets/b1cb04e0-71ab-4a71-9612-c2092585dac6" />
 
-**Discover Issue → Create Case → Add Evidence → AI Analysis → Take Action → Track Resolution**
 
 
 ---
