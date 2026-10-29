@@ -1,5 +1,3 @@
-<div align="center">
-
 # 🏠 Dwell
 
 ### Your home. Your rights. Your next step.
@@ -10,9 +8,21 @@ Built for the **Nebius × NVIDIA Global AI Hackathon**.
 
 [Frontend Repository](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-FE) · [Backend Repository](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-BE)
 
-</div>
 
 ---
+
+## 🖼️ Service Overview
+
+<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/31b4d46c-25d2-4118-84d9-5bd8d9b0ba83" />
+
+
+Dwell connects **Document → Understand → Act** to help tenants navigate housing issues with greater clarity.
+
+## 🧭 User Journey
+
+<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/b1cb04e0-71ab-4a71-9612-c2092585dac6" />
+
+**Discover Issue → Create Case → Add Evidence → AI Analysis → Take Action → Track Resolution**
 
 ## 🌍 Overview
 
@@ -128,29 +138,26 @@ The project targets **Android APK and Web** experiences.
 
 ## 📱 Screenshots
 
-Product screenshots will be added here. Suggested sequence: **Home → Create Case → Add Evidence → AI Analysis → Reports → Case Detail → Assistant**.
+The **Service Overview** and **User Journey** slides above showcase screens from the Figma design. Further MVP showcases can be added as they are finalized.
 
 ## 👥 Team
-
-<div align="center">
 
 ### Frontend
 
 <table><tr>
-      <td align="center" width="160"><a href="https://github.com/hxx-dev"><img src="https://github.com/hxx-dev.png" width="100" style="border-radius:50%" alt="hxx-dev GitHub profile"/><br/><b>hxx-dev</b></a><br/><sub>Frontend</sub></td>
-      <td align="center" width="160"><a href="https://github.com/SoWho-J"><img src="https://github.com/SoWho-J.png" width="100" style="border-radius:50%" alt="SoWho-J GitHub profile"/><br/><b>SoWho-J</b></a><br/><sub>Frontend</sub></td>
-      <td align="center" width="160"><a href="https://github.com/seungminng123"><img src="https://github.com/seungminng123.png" width="100" style="border-radius:50%" alt="seungminng123 GitHub profile"/><br/><b>seungminng123</b></a><br/><sub>Frontend</sub></td>
+      <td width="160"><a href="https://github.com/hxx-dev"><img src="https://github.com/hxx-dev.png" width="100" alt="hxx-dev GitHub profile"/><br/><b>hxx-dev</b></a><br/><sub>Frontend</sub></td>
+      <td width="160"><a href="https://github.com/SoWho-J"><img src="https://github.com/SoWho-J.png" width="100" alt="SoWho-J GitHub profile"/><br/><b>SoWho-J</b></a><br/><sub>Frontend</sub></td>
+      <td width="160"><a href="https://github.com/seungminng123"><img src="https://github.com/seungminng123.png" width="100" alt="seungminng123 GitHub profile"/><br/><b>seungminng123</b></a><br/><sub>Frontend</sub></td>
 </tr></table>
 
 ### Backend
 
 <table><tr>
-      <td align="center" width="160"><a href="https://github.com/wjdah1028"><img src="https://github.com/wjdah1028.png" width="100" style="border-radius:50%" alt="wjdah1028 GitHub profile"/><br/><b>wjdah1028</b></a><br/><sub>Backend</sub></td>
-      <td align="center" width="160"><a href="https://github.com/minho0805"><img src="https://github.com/minho0805.png" width="100" style="border-radius:50%" alt="minho0805 GitHub profile"/><br/><b>minho0805</b></a><br/><sub>Backend</sub></td>
-      <td align="center" width="160"><a href="https://github.com/eunhasu03"><img src="https://github.com/eunhasu03.png" width="100" style="border-radius:50%" alt="eunhasu03 GitHub profile"/><br/><b>eunhasu03</b></a><br/><sub>Backend</sub></td>
+      <td width="160"><a href="https://github.com/wjdah1028"><img src="https://github.com/wjdah1028.png" width="100" alt="wjdah1028 GitHub profile"/><br/><b>wjdah1028</b></a><br/><sub>Backend</sub></td>
+      <td width="160"><a href="https://github.com/minho0805"><img src="https://github.com/minho0805.png" width="100" alt="minho0805 GitHub profile"/><br/><b>minho0805</b></a><br/><sub>Backend</sub></td>
+      <td width="160"><a href="https://github.com/eunhasu03"><img src="https://github.com/eunhasu03.png" width="100" alt="eunhasu03 GitHub profile"/><br/><b>eunhasu03</b></a><br/><sub>Backend</sub></td>
 </tr></table>
 
-</div>
 
 ## 🔗 Repositories
 
@@ -161,8 +168,5 @@ Product screenshots will be added here. Suggested sequence: **Home → Create Ca
 
 ---
 
-<div align="center">
-
 **Dwell — turning housing concerns into clearer, actionable next steps.**
 
-</div>
