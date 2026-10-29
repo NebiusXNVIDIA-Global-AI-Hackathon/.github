@@ -50,6 +50,7 @@ The product focuses on tenants in **New York City**, particularly those navigati
 
 ### 🤖 MVP 2 — AI Evidence Analysis
 <img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/a5ce15f2-49ce-46db-a911-7abb737e15b6" />
+
 ### 📊 MVP 3 — Case Management & Tracking
 <img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/8d41b888-6372-4f2e-b8a7-9fe0ec0c1900" />
 
