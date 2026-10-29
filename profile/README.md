@@ -45,15 +45,15 @@ The product focuses on tenants in **New York City**, particularly those navigati
 
 <img width="3200" height="1800" alt="Dwell User Journey" src="https://github.com/user-attachments/assets/b1cb04e0-71ab-4a71-9612-c2092585dac6" />
 
-### MVP1
+### 📝 MVP 1 — Case Creation & Evidence Collection
 <img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/a16135a0-88ee-43ae-9e2a-13b616749fd4" />
 
-### MVP2
+### 🤖 MVP 2 — AI Evidence Analysis
 <img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/a5ce15f2-49ce-46db-a911-7abb737e15b6" />
-### MVP3
+### 📊 MVP 3 — Case Management & Tracking
 <img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/8d41b888-6372-4f2e-b8a7-9fe0ec0c1900" />
 
-### AI_Assistant
+### 💬 AI Assistant
 <img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/1a12b720-84fb-4bf6-947b-150ab098c6f1" />
 
 
