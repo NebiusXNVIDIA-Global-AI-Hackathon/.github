@@ -38,11 +38,23 @@ The product focuses on tenants in **New York City**, particularly those navigati
 ## 🖼️ Service Overview
 
 <img width="3200" height="1800" alt="Dwell Service Overview" src="https://github.com/user-attachments/assets/31b4d46c-25d2-4118-84d9-5bd8d9b0ba83" />
+<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/28e11e98-178d-4b38-b810-4ab84387b722" />
 
 
 ## 🧭 User Journey
 
 <img width="3200" height="1800" alt="Dwell User Journey" src="https://github.com/user-attachments/assets/b1cb04e0-71ab-4a71-9612-c2092585dac6" />
+
+### MVP1
+<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/a16135a0-88ee-43ae-9e2a-13b616749fd4" />
+
+### MVP2
+<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/a5ce15f2-49ce-46db-a911-7abb737e15b6" />
+### MVP3
+<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/8d41b888-6372-4f2e-b8a7-9fe0ec0c1900" />
+
+### AI_Assistant
+<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/1a12b720-84fb-4bf6-947b-150ab098c6f1" />
 
 
 
