@@ -141,21 +141,70 @@ The project targets **Android APK and Web** experiences.
 
 ## 👥 Team Members
 
+
+### Design & Frontend
+
+<table>
+  <tr>
+    <td width="160">
+      <a href="https://github.com/SoWho-J">
+        <img src="https://github.com/SoWho-J.png" width="100" alt="SoWho-J GitHub profile"/>
+        <br/><b>SoWho-J</b>
+      </a>
+      <br/><sub>Design &amp; Frontend</sub>
+    </td>
+  </tr>
+</table>
+
 ### Frontend
 
-<table><tr>
-      <td width="160"><a href="https://github.com/hxx-dev"><img src="https://github.com/hxx-dev.png" width="100" alt="hxx-dev GitHub profile"/><br/><b>hxx-dev</b></a><br/><sub>Frontend</sub></td>
-      <td width="160"><a href="https://github.com/SoWho-J"><img src="https://github.com/SoWho-J.png" width="100" alt="SoWho-J GitHub profile"/><br/><b>SoWho-J</b></a><br/><sub>Frontend</sub></td>
-      <td width="160"><a href="https://github.com/seungminng123"><img src="https://github.com/seungminng123.png" width="100" alt="seungminng123 GitHub profile"/><br/><b>seungminng123</b></a><br/><sub>Frontend</sub></td>
-</tr></table>
+<table>
+  <tr>
+    <td width="160">
+      <a href="https://github.com/hxx-dev">
+        <img src="https://github.com/hxx-dev.png" width="100" alt="hxx-dev GitHub profile"/>
+        <br/><b>hxx-dev</b>
+      </a>
+      <br/><sub>Frontend</sub>
+    </td>
+    <td width="160">
+      <a href="https://github.com/seungminng123">
+        <img src="https://github.com/seungminng123.png" width="100" alt="seungminng123 GitHub profile"/>
+        <br/><b>seungminng123</b>
+      </a>
+      <br/><sub>Frontend</sub>
+    </td>
+  </tr>
+</table>
 
 ### Backend
 
-<table><tr>
-      <td width="160"><a href="https://github.com/wjdah1028"><img src="https://github.com/wjdah1028.png" width="100" alt="wjdah1028 GitHub profile"/><br/><b>wjdah1028</b></a><br/><sub>Backend</sub></td>
-      <td width="160"><a href="https://github.com/minho0805"><img src="https://github.com/minho0805.png" width="100" alt="minho0805 GitHub profile"/><br/><b>minho0805</b></a><br/><sub>Backend</sub></td>
-      <td width="160"><a href="https://github.com/eunhasu03"><img src="https://github.com/eunhasu03.png" width="100" alt="eunhasu03 GitHub profile"/><br/><b>eunhasu03</b></a><br/><sub>Backend</sub></td>
-</tr></table>
+<table>
+  <tr>
+    <td width="160">
+      <a href="https://github.com/wjdah1028">
+        <img src="https://github.com/wjdah1028.png" width="100" alt="wjdah1028 GitHub profile"/>
+        <br/><b>wjdah1028</b>
+      </a>
+      <br/><sub>Backend</sub>
+    </td>
+    <td width="160">
+      <a href="https://github.com/minho0805">
+        <img src="https://github.com/minho0805.png" width="100" alt="minho0805 GitHub profile"/>
+        <br/><b>minho0805</b>
+      </a>
+      <br/><sub>Backend</sub>
+    </td>
+    <td width="160">
+      <a href="https://github.com/eunhasu03">
+        <img src="https://github.com/eunhasu03.png" width="100" alt="eunhasu03 GitHub profile"/>
+        <br/><b>eunhasu03</b>
+      </a>
+      <br/><sub>Backend</sub>
+    </td>
+  </tr>
+</table>
+
 
 ## 🛠 Tech Stack
 
