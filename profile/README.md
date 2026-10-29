@@ -6,29 +6,49 @@
 
 Built for the **Nebius × NVIDIA Global AI Hackathon**.
 
-[Frontend Repository](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-FE) · [Backend Repository](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-BE)
+---
+
+## ✍️ Introduction & Overview
+
+- **Service Name:** Dwell
+- **Project:** Nebius × NVIDIA Global AI Hackathon
+- **Target Users:** Non-native English-speaking tenants in New York City
+- **Platforms:** Android & Web
+- **Demo:** To be added
+
+### 🔗 Repository
+
+| Part | Repository |
+| --- | --- |
+| Frontend | [Dwell-FE](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-FE) |
+| Backend | [Dwell-BE](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-BE) |
+
+---
+
+
+## 📌 Project Introduction
+
+**Dwell** helps tenants turn a confusing housing problem into a documented, manageable case. From collecting evidence to understanding the next step, the platform brings housing issue reporting, AI-assisted guidance, and progress tracking into one experience.
+
+The product focuses on tenants in **New York City**, particularly those navigating housing issues in a language that is not their first.
 
 
 ---
 
 ## 🖼️ Service Overview
 
-<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/31b4d46c-25d2-4118-84d9-5bd8d9b0ba83" />
-
+<img width="3200" height="1800" alt="Dwell Service Overview" src="https://github.com/user-attachments/assets/31b4d46c-25d2-4118-84d9-5bd8d9b0ba83" />
 
 Dwell connects **Document → Understand → Act** to help tenants navigate housing issues with greater clarity.
 
 ## 🧭 User Journey
 
-<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/b1cb04e0-71ab-4a71-9612-c2092585dac6" />
+<img width="3200" height="1800" alt="Dwell User Journey" src="https://github.com/user-attachments/assets/b1cb04e0-71ab-4a71-9612-c2092585dac6" />
 
 **Discover Issue → Create Case → Add Evidence → AI Analysis → Take Action → Track Resolution**
 
-## 🌍 Overview
 
-**Dwell** helps tenants turn a confusing housing problem into a documented, manageable case. From collecting evidence to understanding the next step, the platform brings housing issue reporting, AI-assisted guidance, and progress tracking into one experience.
-
-The product focuses on tenants in **New York City**, particularly those navigating housing issues in a language that is not their first.
+---
 
 ## ❗ The Problem
 
@@ -113,21 +133,6 @@ flowchart TD
 
 *High-level architecture based on the repository structure and declared dependencies; it does not guarantee that every integration is active in every environment.*
 
-## 🛠 Tech Stack
-
-| Area | Technologies |
-| --- | --- |
-| **Frontend** | Flutter, Dart, Material UI |
-| **Navigation & State** | go_router, Riverpod, fquery |
-| **Networking & Storage** | Dio, shared_preferences, flutter_secure_storage |
-| **Media & UI** | camera, image_picker, video_player, flutter_svg, Lucide Icons |
-| **Backend** | Java 21, Spring Boot 4, Spring Security, Spring Data JPA |
-| **Database** | PostgreSQL, Flyway, Hibernate Vector |
-| **Authentication** | JWT |
-| **AI** | NVIDIA Nemotron, Nebius Token Factory, Gemini inspector integration |
-| **Infrastructure & Tooling** | Docker, GitHub Actions, Nebius AI Cloud, AWS S3 SDK |
-| **API Documentation** | OpenAPI / Swagger UI |
-
 ## 🎬 Demo
 
 The project targets **Android APK and Web** experiences.
@@ -136,11 +141,7 @@ The project targets **Android APK and Web** experiences.
 - **Demo Video:** Link to be added
 - **Android APK:** Link to be added
 
-## 📱 Screenshots
-
-The **Service Overview** and **User Journey** slides above showcase screens from the Figma design. Further MVP showcases can be added as they are finalized.
-
-## 👥 Team
+## 👥 Team Members
 
 ### Frontend
 
@@ -158,15 +159,46 @@ The **Service Overview** and **User Journey** slides above showcase screens from
       <td width="160"><a href="https://github.com/eunhasu03"><img src="https://github.com/eunhasu03.png" width="100" alt="eunhasu03 GitHub profile"/><br/><b>eunhasu03</b></a><br/><sub>Backend</sub></td>
 </tr></table>
 
+## 🛠 Tech Stack
 
-## 🔗 Repositories
+### Frontend
 
-| Repository | Description |
-| --- | --- |
-| [**Dwell-FE**](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-FE) | Flutter application for Android and Web, including tenant-facing workflows and UI. |
-| [**Dwell-BE**](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-BE) | Spring Boot API, case management, AI integration, authentication, and persistence. |
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logoColor=white&logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logoColor=white&logo=dart)
+![Material UI](https://img.shields.io/badge/Material_UI-243B53?style=for-the-badge&logoColor=white)
+
+### Navigation & State
+
+![go router](https://img.shields.io/badge/go_router-02569B?style=for-the-badge&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-0553B1?style=for-the-badge&logoColor=white)
+![fquery](https://img.shields.io/badge/fquery-243B53?style=for-the-badge&logoColor=white)
+![Dio](https://img.shields.io/badge/Dio-0A66C2?style=for-the-badge&logoColor=white)
+
+### Backend
+
+![Java 21](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logoColor=white&logo=openjdk)
+![Spring Boot 4](https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=for-the-badge&logoColor=white&logo=springboot)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logoColor=white&logo=springsecurity)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logoColor=white)
+
+### Database
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logoColor=white&logo=postgresql)
+![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logoColor=white&logo=flyway)
+![Hibernate Vector](https://img.shields.io/badge/Hibernate_Vector-59666C?style=for-the-badge&logoColor=white&logo=hibernate)
+
+### AI
+
+![NVIDIA Nemotron](https://img.shields.io/badge/NVIDIA_Nemotron-76B900?style=for-the-badge&logoColor=white&logo=nvidia)
+![Nebius Token Factory](https://img.shields.io/badge/Nebius_Token_Factory-243B53?style=for-the-badge&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logoColor=white&logo=googlegemini)
+
+### Infrastructure & Tools
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logoColor=white&logo=docker)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logoColor=white&logo=githubactions)
+![Nebius AI Cloud](https://img.shields.io/badge/Nebius_AI_Cloud-243B53?style=for-the-badge&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logoColor=white&logo=amazons3)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logoColor=white&logo=swagger)
 
 ---
-
-**Dwell — turning housing concerns into clearer, actionable next steps.**
-
