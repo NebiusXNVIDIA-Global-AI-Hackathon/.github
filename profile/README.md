@@ -37,25 +37,31 @@ The product focuses on tenants in **New York City**, particularly those navigati
 
 ## 🖼️ Service Overview
 
-<img width="3200" height="1800" alt="Dwell Service Overview" src="https://github.com/user-attachments/assets/31b4d46c-25d2-4118-84d9-5bd8d9b0ba83" />
-<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/28e11e98-178d-4b38-b810-4ab84387b722" />
+
+<img width="7680" height="4320" alt="persona" src="https://github.com/user-attachments/assets/07d8a16c-057e-4b37-9b10-eec580c4c512" />
+<img width="7680" height="4320" alt="problem" src="https://github.com/user-attachments/assets/0d1f1df2-4de9-4568-952f-be7e1efdd312" />
+<img width="7680" height="4320" alt="userflow" src="https://github.com/user-attachments/assets/885dcc13-6fcf-4ef7-85da-3417363d289e" />
 
 
-## 🧭 User Journey
 
-<img width="3200" height="1800" alt="Dwell User Journey" src="https://github.com/user-attachments/assets/b1cb04e0-71ab-4a71-9612-c2092585dac6" />
+
+
 
 ### 📝 MVP 1 — Case Creation & Evidence Collection
-<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/a16135a0-88ee-43ae-9e2a-13b616749fd4" />
+
+<img width="7680" height="4320" alt="mvp1 - 케이스등록" src="https://github.com/user-attachments/assets/13f4a550-06c8-47ea-b236-e573bed1dee4" />
+
 
 ### 🤖 MVP 2 — AI Evidence Analysis
-<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/a5ce15f2-49ce-46db-a911-7abb737e15b6" />
+<img width="7680" height="4320" alt="mvp1- 케이스 디테일" src="https://github.com/user-attachments/assets/6dcf0586-d6b4-49ed-a917-9577dcbdb795" />
 
-### 📊 MVP 3 — Case Management & Tracking
-<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/8d41b888-6372-4f2e-b8a7-9fe0ec0c1900" />
 
-### 💬 AI Assistant
-<img width="3200" height="1800" alt="image" src="https://github.com/user-attachments/assets/1a12b720-84fb-4bf6-947b-150ab098c6f1" />
+### 📊 MVP 3 — My Place
+<img width="7680" height="4320" alt="mvp2 - my place" src="https://github.com/user-attachments/assets/e43337a6-f05f-4950-a72b-e7f15bfcff5a" />
+
+### 💬 MVP3  AI Assistant
+<img width="7680" height="4320" alt="mvp 3- 채팅" src="https://github.com/user-attachments/assets/3160ec32-d3b6-431f-9429-a13d4a6db8a9" />
+
 
 
 
