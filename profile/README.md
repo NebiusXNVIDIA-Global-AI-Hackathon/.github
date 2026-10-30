@@ -1,9 +1,14 @@
 # 🏠 Dwell
 
-### Your home. Your rights. Your next step.
+### Home repairs are hard enough. You shouldn’t have to navigate them alone.
 
-**An AI-powered housing issue companion for non-native English-speaking tenants in New York City.**
+**Your multilingual AI tenant agent—from the first repair request to checking the outcome.**
 
+Dwell helps renters document evidence, communicate with landlords, and manage follow-ups. As new evidence and replies come in, your case stays organized and your next step stays clear.
+
+Built for first-time renters and anyone navigating an unfamiliar housing system. Starting in New York City.
+
+**Powered by NVIDIA Nemotron on Nebius Token Factory.**  
 Built for the **Nebius × NVIDIA Global AI Hackathon**.
 
 ---
@@ -13,12 +18,14 @@ Built for the **Nebius × NVIDIA Global AI Hackathon**.
 | | |
 | --- | --- |
 | 🏁 **Track** | Best Apps and Agents |
+| 👥 **Target Users** | Non-native English-speaking tenants in New York City |
+| 📱 **Platforms** | Android & Web |
 | 🌐 **Live Demo** | **https://dwell-omega.vercel.app** (tap **"Try a demo account"**) |
 | 🎬 **Demo Video (≤ 3 min)** | **https://youtu.be/R3j6sy3RzPQ** |
 | 🟩 **NVIDIA Model** | NVIDIA Nemotron 3 Nano (`nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B`), powering 7 features |
 | ⚡ **Nebius** | Nebius Token Factory: every live Nemotron call is a runtime request to `api.tokenfactory.nebius.com/v1` |
 | 💻 **Code** | [Dwell-FE](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-FE) · [Dwell-BE](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-BE) |
-| 📜 **License** | MIT |
+| 📜 **License** | Dwell is open source under the **[MIT License](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-BE/blob/develop/LICENSE)**. © 2026 Dwell Team.<br/>Demo video evidence photo: "Ceiling water damage", Wikimedia Commons, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). |
 | 🗓 **Built** | From scratch during the Submission Period |
 
 ---
@@ -29,19 +36,19 @@ No installation or sign-up needed.
 
 1. Open **https://dwell-omega.vercel.app** (best viewed in mobile view, e.g. 390 × 844, or on a phone).
 2. On the login screen, tap **"Try a demo account"**.
-3. Walk through the core flow:
+3. Follow the path below. Each step is explained in [How it works](#-our-solution).
 
-| Step | Where | What to look for |
+| Step | Tap | You'll see |
 | --- | --- | --- |
-| 1 | **Cases → + New Case** | Pick an issue (e.g. *Water & Flooding → Water Leak*), room, and exact spot. |
-| 2 | **Add Evidence** | Upload a photo. AI checks *damage visible · clear and steady · surroundings included*. |
-| 3 | **Add a description → Submit** | AI analyzes evidence + description and assesses severity. A case is created. |
-| 4 | **Home** | The new case card appears with a live timeline and an AI checklist. |
-| 5 | **View Case → View Case Analysis** | Severity reasoning and **Your Rights** with NYC Admin Code sections cited. |
-| 6 | **Send a notice** | Nemotron drafts a polite English message to the landlord → *Yes, I sent it* → status becomes **Waiting for landlord's response** with a deadline countdown. Tap **Skip 24h** to simulate time passing. |
-| 7 | **Got a Reply? Update Status** | Paste the landlord's reply (e.g. *"We will look into it."*). **Deaver** explains it, cites the law, and suggests next steps. |
-| 8 | **My Place** | Building Signals, Building Insights (landlord track record), Neighbor Community. |
-| 9 | **My Page → Manage Profile → Language** | Switch between English · 中文 · Español. |
+| 1 | **Cases → + New Case** | Guided issue → room → spot selection |
+| 2 | **Add Evidence → Check** | AI evidence check (3 items) |
+| 3 | **Add a description → Submit** | Severity analysis, case created |
+| 4 | **Home → View Case → View Case Analysis** | Severity reasons + NYC housing-code rights |
+| 5 | **Send a notice → Open in Messages → Yes, I sent it** | Nemotron-drafted notice, response countdown (**Skip 24h** simulates time) |
+| 6 | **Got a Reply? Update Status** | Deaver interprets the landlord's reply |
+| 7 | **Upload an "after" photo** | Repair verification: Resolved / Disputed / Inconclusive |
+| 8 | **Export** | PDF case report |
+| 9 | **My Place** · **My Page → Manage Profile → Language** | Building signals, landlord record, community · English / 中文 / Español |
 
 > The demo account is shared. Data you create there may be visible to other judges.
 > Dwell's AI output helps tenants document and decide. It does **not** replace professional legal advice or an official inspection.
@@ -238,30 +245,46 @@ The Dwell-FE repository was created on **September 17, 2026**, and Dwell-BE on *
 
 ---
 
-## 📜 License
+## ❗ The Problem
 
-Dwell is open source under the **[MIT License](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-BE/blob/develop/LICENSE)**. © 2026 Dwell Team.
+The ceiling drips on Tuesday. You text the landlord. On Thursday: *"We'll look into it."*
 
-Demo video evidence photo: "Ceiling water damage", Wikimedia Commons, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+Is that a promise? A date? A polite no? You read it three times in a language you're still learning, and you still don't know what to do next.
+
+- **835,011** housing problems were reported to NYC HPD in FY2025.
+- **7,500** of 20,000+ violations certified as "corrected" were found **false** on reinspection.
+- **901** buildings stayed underheated for **seven winters** in a row.
+- **23%** of New Yorkers (1.87M) speak English less than "very well".
+
+For a first-time renter, the leak is never the hard part. **The case is.**
+
+- **"Is this serious?"** Is a brown stain an emergency or cosmetic? Which photos will actually count?
+- **"What do I say?"** Writing a formal repair request in English is hard. Decoding *"We'll look into it"* is harder.
+- **"I asked. Now what?"** Nobody tells you how long to wait, or what to do when the landlord goes silent.
+- **"Where's that photo?"** Evidence is in the camera roll, the promise is in a text thread, the 311 number is in a screenshot.
+- **"Is it actually fixed?"** The landlord paints over the mold and calls it done. The leak is still there.
 
 ---
 
-## ✍️ Introduction & Overview
+## 💡 Our Solution
 
-- **Service Name:** Dwell
-- **Project:** Nebius × NVIDIA Global AI Hackathon
-- **Target Users:** Non-native English-speaking tenants in New York City
-- **Platforms:** Android & Web
+Dwell turns a leak into **one living case**: every photo, every message, every deadline in one place, with **Deaver**, our multilingual AI assistant, telling you what to do next.
 
----
+### How it works
 
+1. **Report it in a few taps.** *Water & Flooding → Water Leak → Bathroom → Ceiling.* Dwell's guided flow captures exactly what's wrong and where.
+2. **Capture evidence that holds up.** Dwell shows what good evidence looks like (overall view, close-up, video, surrounding area). Then AI checks every upload: **damage visible ✓ clear and steady ✓ surroundings included ✓**. Photos, video, voice notes, and documents are all accepted.
+3. **Get a severity call, with reasons.** The Inspector reads the photo, and Nemotron weighs it against your own words. Example: *High: ceiling sagging and cracking, stain spreading, water dripping near a light.* Originals are saved, the AI analysis is attached, and the record is **protected from tampering**.
+4. **Know your rights, with citations.** Case Analysis lists the NYC housing-code sections that apply (e.g. *§ 27-2005 Duties of owner*, *§ 27-2017.1 Mold remediation*), pulled from our legal database. Never invented by the model.
+5. **Send a notice in seconds.** Nemotron drafts a polite, formal English message with your address, the problem, how long it's been going on, and a request for a repair date, plus a translation you can check. Review it, send it from your phone, and tap **"Yes, I sent it."**
+6. **Watch the clock.** The case moves to **Waiting for landlord's response** with a countdown (e.g. *23 hours left*) and a fresh checklist for while you wait.
+7. **Decode the reply.** Paste *"We will look into it."* Deaver flags it as **vague, not a commitment**, cites the owner's duty to repair, and offers one-tap next steps: *Ask for a written repair schedule · File with 311*.
+8. **Prove the fix.** Upload an "after" photo. Dwell compares it with the "before" photo and returns **Resolved**, **Disputed**, or **Inconclusive**. A fresh coat of paint doesn't get a free pass.
+9. **Export the whole story.** One tap creates a PDF with the timeline, evidence, correspondence, and the housing-law provisions that apply.
 
-## 📌 Project Introduction
+**Plus, beyond your unit:** **My Place** shows building-wide patterns (*4 water-leak cases in 30 days*), your landlord's track record (*53 days average to fix vs. 30 citywide · 1 open Class C violation*), and a **Neighbor Community** organized by floor. The whole app switches between **English, 中文, and Español** in one tap.
 
-**Dwell** helps tenants turn a confusing housing problem into a documented, manageable case. From collecting evidence to understanding the next step, the platform brings housing issue reporting, AI-assisted guidance, and progress tracking into one experience.
-
-The product focuses on tenants in **New York City**, particularly those navigating housing issues in a language that is not their first.
-
+**One case. Every piece of evidence. Always a clear next step.**
 
 ---
 
@@ -291,60 +314,7 @@ The product focuses on tenants in **New York City**, particularly those navigati
 ### 📊 MVP 4 — My Place
 <img width="7680" height="4320" alt="mvp2 - my place" src="https://github.com/user-attachments/assets/e43337a6-f05f-4950-a72b-e7f15bfcff5a" />
 
-
-
-
-
 ---
-
-## ❗ The Problem
-
-When a tenant discovers mold, a leak, broken heating, or another housing issue, taking action is rarely as simple as submitting a complaint.
-
-- **Documentation is difficult.** Photos, messages, and incident details become scattered across devices and conversations.
-- **The process is unclear.** Tenants may not know what evidence matters or what to do next.
-- **Language adds friction.** Understanding housing terminology and communicating with a landlord can be intimidating.
-- **Follow-up is easy to lose.** Deadlines, responses, inspections, and repair outcomes need to be tracked over time.
-
-## 💡 Our Solution
-
-Dwell combines **structured case creation**, **AI-assisted evidence analysis**, **guided follow-up**, and **repair verification** in a single tenant-centered workflow, in the tenant's own language.
-
-```text
-Housing issue detected
-        ↓
-Create a case: issue type, room, exact spot, description (any language)
-        ↓
-Add evidence → AI checks photo quality before upload
-        ↓
-Inspector (vision) + Nemotron judge severity, with reasons and NYC housing-law rights
-        ↓
-Nemotron drafts a formal English notice to the landlord (+ translation)
-        ↓
-Track the response deadline · Deaver interprets landlord replies
-        ↓
-Upload "after" photos → Resolved or Disputed
-        ↓
-Export a PDF case report
-```
-
-## ✨ Key Features
-
-| Feature | What it helps tenants do |
-| --- | --- |
-| 📝 **Guided Case Creation** | File a case in a few taps: issue type, room, exact spot, and a description in any language. |
-| 📷 **Evidence Collection & Quality Check** | Attach photos, video, voice notes, and documents. AI checks that the damage is visible, the shot is clear, and the surroundings are included. |
-| 🧠 **AI Severity Analysis** | The Inspector (fine-tuned vision model) observes, NVIDIA Nemotron judges with the tenant's own words and case history, and server rules govern the final severity. |
-| ⚖️ **Your Rights** | Relevant NYC/NYS housing-law provisions from 26 curated entries, with citations rendered from our database. |
-| 📂 **Case Detail & Timeline** | Current status, timeline, evidence (originals saved and protected from tampering), and case history. |
-| ✅ **AI Checklists** | Personalized next steps that change as the case moves forward. |
-| ✉️ **Landlord Notice** | Nemotron drafts a polite, formal English message with a translation in the tenant's language. |
-| ⏱ **Status & Deadline Tracking** | After the notice is sent, Dwell tracks the landlord's response window (High 24h / Medium 72h / Low 7 days). |
-| 💬 **Deaver, AI Assistant** | Multilingual chat that interprets landlord replies (e.g. *"We'll look into it"*), cites the law, and offers one-tap next actions. |
-| 🔧 **Repair Verification** | Compares before/after photos and returns **Resolved**, **Disputed**, or **Inconclusive**. A fresh coat of paint does not get a free pass. |
-| 📄 **Case Report Export** | One-tap PDF report with timeline, evidence, correspondence, and applicable law. |
-| 🏢 **My Place** | Building Signals (recurring issues), Building Insights (landlord's repair track record vs. NYC average), and Neighbor Community. |
-| 🌍 **Multilingual UI** | Switch the whole app between English, 中文, and Español. |
 
 ## 🏗 Architecture
 
@@ -363,6 +333,8 @@ flowchart TD
     ASSIST --> VISION["Inspector · Fine-tuned Gemini (Vertex AI)"]
     API --> FILES["Object Storage · AWS S3 SDK"]
 ```
+
+---
 
 ## 👥 Team Members
 
@@ -430,6 +402,7 @@ flowchart TD
   </tr>
 </table>
 
+---
 
 ## 🛠 Tech Stack
 
@@ -472,5 +445,3 @@ flowchart TD
 ![Nebius AI Cloud](https://img.shields.io/badge/Nebius_AI_Cloud-243B53?style=for-the-badge&logoColor=white)
 ![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logoColor=white&logo=amazons3)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logoColor=white&logo=swagger)
-
----
