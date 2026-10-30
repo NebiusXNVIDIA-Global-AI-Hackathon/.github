@@ -252,7 +252,8 @@ Demo video evidence photo: "Ceiling water damage", Wikimedia Commons, [CC BY 3.0
 - **Project:** Nebius × NVIDIA Global AI Hackathon
 - **Target Users:** Non-native English-speaking tenants in New York City
 - **Platforms:** Android & Web
-- **Demo:** To be added
+- **Live Demo:** https://dwell-omega.vercel.app
+- **Demo Video:** https://youtu.be/R3j6sy3RzPQ
 
 ### 🔗 Repository
 
@@ -316,55 +317,53 @@ When a tenant discovers mold, a leak, broken heating, or another housing issue, 
 
 ## 💡 Our Solution
 
-Dwell combines **structured case creation**, **AI-assisted evidence analysis**, and **guided follow-up** in a single tenant-centered workflow.
+Dwell combines **structured case creation**, **AI-assisted evidence analysis**, **guided follow-up**, and **repair verification** in a single tenant-centered workflow, in the tenant's own language.
 
 ```text
 Housing issue detected
         ↓
-Create a case and describe the problem
+Create a case: issue type, room, exact spot, description (any language)
         ↓
-Add supporting evidence
+Add evidence → AI checks photo quality before upload
         ↓
-AI-assisted analysis and case summary
+Inspector (vision) + Nemotron judge severity, with reasons and NYC housing-law rights
         ↓
-Review suggested actions and checklists
+Nemotron drafts a formal English notice to the landlord (+ translation)
         ↓
-Track updates, landlord communication, and repair progress
+Track the response deadline · Deaver interprets landlord replies
+        ↓
+Upload "after" photos → Resolved or Disputed
+        ↓
+Export a PDF case report
 ```
 
 ## ✨ Key Features
 
 | Feature | What it helps tenants do |
 | --- | --- |
-| 📝 **Guided Case Creation** | Record the issue type, location, affected area, description, and evidence through a step-by-step flow. |
-| 📷 **Evidence Collection** | Attach supporting materials, including images, video, audio, and documents, to a case. |
-| 🧠 **AI-Assisted Analysis** | Turn submitted case information and evidence into structured observations and assessments for review. |
-| 📂 **Reports & Case History** | Browse cases and inspect case details, statuses, timelines, and supporting evidence. |
-| ✅ **Action Checklists** | Organize recommended next steps and monitor progress as a case evolves. |
-| 💬 **AI Assistant** | Access case-related conversations, contextual guidance, and suggested actions. |
-| 🏢 **My Place** | View place-related information and building signals in a dedicated workspace. |
-| ✉️ **Landlord Communication** | Support notice preparation and track communications related to an issue. |
-| 🔧 **Repair Verification** | Document and review the outcome of a reported repair. |
-| 🤝 **Community** | Explore tenant discussions and shared experiences. |
-
-> Features represent workflows and modules present in the project repositories. Availability and end-to-end integration may vary by build.
+| 📝 **Guided Case Creation** | File a case in a few taps: issue type, room, exact spot, and a description in any language. |
+| 📷 **Evidence Collection & Quality Check** | Attach photos, video, voice notes, and documents. AI checks that the damage is visible, the shot is clear, and the surroundings are included. |
+| 🧠 **AI Severity Analysis** | The Inspector (fine-tuned vision model) observes, NVIDIA Nemotron judges with the tenant's own words and case history, and server rules govern the final severity. |
+| ⚖️ **Your Rights** | Relevant NYC/NYS housing-law provisions from 26 curated entries, with citations rendered from our database. |
+| 📂 **Case Detail & Timeline** | Current status, timeline, evidence (originals saved and protected from tampering), and case history. |
+| ✅ **AI Checklists** | Personalized next steps that change as the case moves forward. |
+| ✉️ **Landlord Notice** | Nemotron drafts a polite, formal English message with a translation in the tenant's language. |
+| ⏱ **Status & Deadline Tracking** | After the notice is sent, Dwell tracks the landlord's response window (High 24h / Medium 72h / Low 7 days). |
+| 💬 **Deaver, AI Assistant** | Multilingual chat that interprets landlord replies (e.g. *"We'll look into it"*), cites the law, and offers one-tap next actions. |
+| 🔧 **Repair Verification** | Compares before/after photos and returns **Resolved**, **Disputed**, or **Inconclusive**. A fresh coat of paint does not get a free pass. |
+| 📄 **Case Report Export** | One-tap PDF report with timeline, evidence, correspondence, and applicable law. |
+| 🏢 **My Place** | Building Signals (recurring issues), Building Insights (landlord's repair track record vs. NYC average), and Neighbor Community. |
+| 🌍 **Multilingual UI** | Switch the whole app between English, 中文, and Español. |
 
 ## 🤖 AI Workflow
 
 Dwell uses AI as an **assistance layer**, while keeping the case record and user actions structured within the application.
 
-1. **Collect context** — the tenant describes the issue and supplies relevant evidence.
-2. **Analyze evidence** — backend services process evidence-related observations, quality checks, and severity assessment.
-3. **Structure the case** — the application organizes findings into case information and summaries.
-4. **Suggest next steps** — assistant conversations and checklist services help users understand possible follow-up actions.
-5. **Keep the record** — case events, notices, and verification information support ongoing tracking.
-
-**AI infrastructure and components identified in the backend:**
-
-- **NVIDIA Nemotron via Nebius Token Factory** for language-model integration.
-- **Nebius AI Cloud** as part of the project's infrastructure stack.
-- A dedicated **Gemini inspector client** for vision-oriented inspection functionality.
-- A legal-document domain with vector-compatible persistence for contextual legal information.
+1. **Collect context.** The tenant describes the issue in their own language and adds evidence.
+2. **See.** The Inspector (Gemini 3.1 Flash-Lite, fine-tuned on Vertex AI with 831 images) turns each photo into a structured observation.
+3. **Decide.** NVIDIA Nemotron 3 Nano on Nebius Token Factory weighs observations, the tenant's words, earlier photos, and case history.
+4. **Govern.** `SeverityPolicy` enforces rules in code, and legal citations come from our database, never from model output.
+5. **Keep the record.** Every assessment is stored with its reason, and the case grows with every update.
 
 AI output is intended to assist documentation and decision-making, **not replace professional legal advice or an official inspection**.
 
@@ -382,19 +381,16 @@ flowchart TD
     PLACE --> DB
     ASSIST --> DB
     ASSIST --> LLM["Nebius Token Factory · NVIDIA Nemotron"]
-    ASSIST --> VISION["Gemini Inspector Client"]
+    ASSIST --> VISION["Inspector · Fine-tuned Gemini (Vertex AI)"]
     API --> FILES["Object Storage · AWS S3 SDK"]
 ```
 
-*High-level architecture based on the repository structure and declared dependencies; it does not guarantee that every integration is active in every environment.*
-
 ## 🎬 Demo
 
-The project targets **Android APK and Web** experiences.
+The project targets **Android and Web** experiences.
 
-- **Live Demo:** Link to be added
-- **Demo Video:** Link to be added
-- **Android APK:** Link to be added
+- **Live Demo:** https://dwell-omega.vercel.app (tap **"Try a demo account"**)
+- **Demo Video:** https://youtu.be/R3j6sy3RzPQ
 
 ## 👥 Team Members
 
