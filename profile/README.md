@@ -37,7 +37,7 @@ The product focuses on tenants in **New York City**, particularly those navigati
 
 ## 🖼️ Service Overview
 
-
+<img width="1920" height="1080" alt="표지" src="https://github.com/user-attachments/assets/a8590495-7fb3-4c07-8c53-f3458c0dc197" />
 <img width="7680" height="4320" alt="persona" src="https://github.com/user-attachments/assets/07d8a16c-057e-4b37-9b10-eec580c4c512" />
 <img width="7680" height="4320" alt="problem" src="https://github.com/user-attachments/assets/0d1f1df2-4de9-4568-952f-be7e1efdd312" />
 <img width="7680" height="4320" alt="userflow" src="https://github.com/user-attachments/assets/885dcc13-6fcf-4ef7-85da-3417363d289e" />
@@ -55,12 +55,12 @@ The product focuses on tenants in **New York City**, particularly those navigati
 ### 🤖 MVP 2 — AI Evidence Analysis
 <img width="7680" height="4320" alt="mvp1- 케이스 디테일" src="https://github.com/user-attachments/assets/6dcf0586-d6b4-49ed-a917-9577dcbdb795" />
 
-
-### 📊 MVP 3 — My Place
-<img width="7680" height="4320" alt="mvp2 - my place" src="https://github.com/user-attachments/assets/e43337a6-f05f-4950-a72b-e7f15bfcff5a" />
-
 ### 💬 MVP3  AI Assistant
 <img width="7680" height="4320" alt="mvp 3- 채팅" src="https://github.com/user-attachments/assets/3160ec32-d3b6-431f-9429-a13d4a6db8a9" />
+
+### 📊 MVP 4 — My Place
+<img width="7680" height="4320" alt="mvp2 - my place" src="https://github.com/user-attachments/assets/e43337a6-f05f-4950-a72b-e7f15bfcff5a" />
+
 
 
 
