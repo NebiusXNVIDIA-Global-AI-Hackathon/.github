@@ -252,15 +252,6 @@ Demo video evidence photo: "Ceiling water damage", Wikimedia Commons, [CC BY 3.0
 - **Project:** Nebius × NVIDIA Global AI Hackathon
 - **Target Users:** Non-native English-speaking tenants in New York City
 - **Platforms:** Android & Web
-- **Live Demo:** https://dwell-omega.vercel.app
-- **Demo Video:** https://youtu.be/R3j6sy3RzPQ
-
-### 🔗 Repository
-
-| Part | Repository |
-| --- | --- |
-| Frontend | [Dwell-FE](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-FE) |
-| Backend | [Dwell-BE](https://github.com/NebiusXNVIDIA-Global-AI-Hackathon/Dwell-BE) |
 
 ---
 
@@ -355,18 +346,6 @@ Export a PDF case report
 | 🏢 **My Place** | Building Signals (recurring issues), Building Insights (landlord's repair track record vs. NYC average), and Neighbor Community. |
 | 🌍 **Multilingual UI** | Switch the whole app between English, 中文, and Español. |
 
-## 🤖 AI Workflow
-
-Dwell uses AI as an **assistance layer**, while keeping the case record and user actions structured within the application.
-
-1. **Collect context.** The tenant describes the issue in their own language and adds evidence.
-2. **See.** The Inspector (Gemini 3.1 Flash-Lite, fine-tuned on Vertex AI with 831 images) turns each photo into a structured observation.
-3. **Decide.** NVIDIA Nemotron 3 Nano on Nebius Token Factory weighs observations, the tenant's words, earlier photos, and case history.
-4. **Govern.** `SeverityPolicy` enforces rules in code, and legal citations come from our database, never from model output.
-5. **Keep the record.** Every assessment is stored with its reason, and the case grows with every update.
-
-AI output is intended to assist documentation and decision-making, **not replace professional legal advice or an official inspection**.
-
 ## 🏗 Architecture
 
 ```mermaid
@@ -384,13 +363,6 @@ flowchart TD
     ASSIST --> VISION["Inspector · Fine-tuned Gemini (Vertex AI)"]
     API --> FILES["Object Storage · AWS S3 SDK"]
 ```
-
-## 🎬 Demo
-
-The project targets **Android and Web** experiences.
-
-- **Live Demo:** https://dwell-omega.vercel.app (tap **"Try a demo account"**)
-- **Demo Video:** https://youtu.be/R3j6sy3RzPQ
 
 ## 👥 Team Members
 
